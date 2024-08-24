@@ -1,0 +1,1665 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("bcimg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 100%;
+    image-resolution: 100%;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-image: url('bcimg.png');
+    }
+}
+
+.navbar {
+    background-color: rgb(240, 254, 254);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.logo {
+    height: 70px;
+    width: 80px;
+    background-image: url("logo.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo p {
+    margin-top: 55px;
+}
+
+.names {
+    width: 450px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.names select {
+    height: 50px;
+    border: none;
+    font-size: 14px;
+    margin-top: 3px;
+    background-color: rgb(240, 254, 254);
+}
+
+.strt {
+    margin-top: 35px;
+    height: 25px;
+    width: 130px;
+}
+
+.sign {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+button {
+    border: none;
+    background-color: rgb(240, 254, 254);
+    margin: 17px 0 0 0;
+}
+
+.main {
+    height: 700px;
+    background-color: #338379dc;
+    padding: 47px 0 47.075px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main_r {
+    color: white;
+    width: 445px;
+    margin-top: 125px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 55px;
+}
+
+.main_r2 {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #FEC003;
+}
+
+.img {
+    margin: 20px 0px 0px 168px;
+    height: 65px;
+    width: 85px;
+    background-image: url("logo.jpeg");
+    background-size: cover;
+}
+
+.form {
+    width: 445px;
+    height: 578px;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 2.5%;
+}
+
+.form p {
+    font-size: 26px;
+    line-height: 33px;
+    color: #000;
+    text-align: center;
+}
+
+.fundraise input {
+    width: 96%;
+    height: 35px;
+    margin-top: 0.9375em;
+    margin-left: 5px;
+    animation: cdk-text-field-autofill-end 0s 1ms;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #00000072;
+    padding: 5px 0;
+    font-size: 13px;
+    outline: none;
+}
+
+form input:focus {
+    font-weight: 100;
+    font-size: 16px;
+    border-bottom-color: #429a94;
+}
+
+.form select {
+    color: #000000a1;
+    width: 96%;
+    height: 35px;
+    margin-top: 0.9375em;
+    margin-left: 5px;
+    animation: cdk-text-field-autofill-end 0s 1ms;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #00000072;
+    padding: 5px 0;
+    font-size: 13px;
+    outline: none;
+}
+
+.layout {
+    height: 1380px;
+    width: 100%;
+    margin: 90px 0 0 0;
+    background-color: rgb(239, 236, 236);
+}
+
+.after_main {
+    height: 350px;
+    background-color: rgb(239, 236, 236);
+}
+
+.amp {
+    margin: 0px 295px 0px 295px;
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.551);
+}
+
+.am2 {
+    height: 52px;
+    display: inline-block;
+    margin-top: 55px;
+    margin-left: 465px;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 65px;
+    color: #000000;
+    border-bottom: 3px solid #FEC003;
+}
+
+.xpens {
+    margin: 40px 0 120px 230px;
+    height: 325px;
+    width: 1000px;
+    background-color: rgb(239, 236, 236);
+    display: flex;
+    justify-content: space-between;
+}
+
+.x {
+    flex-grow: 1;
+    width: 685px;
+    padding-right: 20px;
+    margin: 0 0 0 40px;
+}
+
+.x1 {
+    height: 52px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 45px;
+}
+
+.x2 {
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.551);
+}
+
+.img1 {
+    border-radius: 5%;
+    background-image: url("x_img.png");
+    background-size: cover;
+    width: 64%;
+    margin: 25px 0 0 20px;
+    height: 96%;
+    object-fit: cover;
+}
+
+.img2 {
+    border-radius: 5%;
+    background-image: url("logo.jpeg");
+    background-size: cover;
+    width: 55%;
+    margin: 25px 0 0 20px;
+    height: 96%;
+    object-fit: cover;
+}
+
+.img3 {
+    border-radius: 5%;
+    background-image: url("imge3.png");
+    background-size: cover;
+    width: 64%;
+    margin: 25px 0 0 20px;
+    height: 96%;
+    object-fit: cover;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] {
+    height: 430px;
+    width: 100%;
+    background-color: white;
+    color: #444;
+    padding: 30px 0 0;
+    overflow: hidden;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] {
+    color: #444;
+    padding: 30px 0 0;
+    overflow: hidden;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .heading[_ngcontent-my-app-c65] {
+    text-align: center;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .sub-heading[_ngcontent-my-app-c65] {
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #999;
+    margin: 10px 0;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .divider[_ngcontent-my-app-c65] {
+    border-bottom: 3px solid #fec003;
+    width: 100px;
+    margin: 20px auto;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .divider.small[_ngcontent-my-app-c65] {
+    width: 40px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .tab-sections[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65] {
+    border-radius: 0;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .tab-sections[_ngcontent-my-app-c65] button.selected[_ngcontent-my-app-c65] {
+    background: #01bfbd;
+    color: #fff;
+    display: block;
+    height: 200px;
+    padding: 5px 15px;
+    position: relative;
+    top: 0;
+    margin: 0;
+}
+
+
+
+.main-wrapper[_ngcontent-my-app-c65] .tab-sections[_ngcontent-my-app-c65] button.selected[_ngcontent-my-app-c65]:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .tab-sections[_ngcontent-my-app-c65] .title[_ngcontent-my-app-c65] {
+    white-space: initial;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #444;
+    min-height: 45px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .tab-sections[_ngcontent-my-app-c65] .title.font15[_ngcontent-my-app-c65] {
+    font-size: 15px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .tab-sections[_ngcontent-my-app-c65] .title.font11[_ngcontent-my-app-c65] {
+    font-size: 11px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .tab-sections[_ngcontent-my-app-c65] .title.font9[_ngcontent-my-app-c65] {
+    font-size: 9px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .tab-sections[_ngcontent-my-app-c65] .link[_ngcontent-my-app-c65] {
+    display: none;
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: flex-end;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #01bfbd;
+    justify-content: center;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .tab-sections[_ngcontent-my-app-c65] .content[_ngcontent-my-app-c65] {
+    font-size: 15px;
+    line-height: 1.38;
+    text-align: justify;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .tab-sections[_ngcontent-my-app-c65] .divider.transplant[_ngcontent-my-app-c65] {
+    margin: 10px auto;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .cause-wrapper[_ngcontent-my-app-c65] {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .heart-surg[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: url(/assets/images/medical-landing/medical-sprite-new.png) no-repeat;
+    background-position: 10px 9px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .kidney-tran[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: url(/assets/images/medical-landing/medical-sprite-new.png) no-repeat;
+    background-position: -80px 9px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .nicu[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: url(/assets/images/medical-landing/medical-sprite-new.png) no-repeat;
+    background-position: -171px 8px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .bone-marrow[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: url(/assets/images/medical-landing/medical-sprite-new.png) no-repeat;
+    background-position: -260px 9px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .cancer-trt[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: url(/assets/images/medical-landing/medical-sprite-new.png) no-repeat;
+    background-position: -350px 8px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .other[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: url(/assets/images/medical-landing/medical-sprite-new.png) no-repeat;
+    background-position: -440px 9px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .lukemia[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: url(/assets/images/medical-landing/cancer-sprite.png) no-repeat;
+    background-position: -8px -10px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .public-schools[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/education-sprite.png);
+    background-position: 89px -14px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .lung-cancer[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: url(/assets/images/medical-landing/cancer-sprite.png) no-repeat;
+    background-position: -85px -10px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .edu-associate[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/education-sprite.png);
+    background-position: -151px -10px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .prostate-cancer[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: url(/assets/images/medical-landing/cancer-sprite.png) no-repeat;
+    background-position: -162px -10px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .after-school-pgm[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/education-sprite.png);
+    background-position: -218px -10px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .oral-cancer[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: url(/assets/images/medical-landing/cancer-sprite.png) no-repeat;
+    background-position: -242px -10px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .melanoma[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: url(/assets/images/medical-landing/cancer-sprite.png) no-repeat;
+    background-position: -315px -10px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .kidney-cancer[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: url(/assets/images/medical-landing/cancer-sprite.png) no-repeat;
+    background-position: -391px -10px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .parent-teacher[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto auto;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/education-sprite.png);
+    background-position: -458px -10px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .breast-cancer[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: url(/assets/images/medical-landing/cancer-sprite.png) no-repeat;
+    background-position: -466px -10px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .extracurricular[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/education-sprite.png);
+    background-position: -392px -10px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .throat-cancer[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: url(/assets/images/medical-landing/cancer-sprite.png) no-repeat;
+    background-position: -541px -10px;
+    background-color: #fff;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .paying[_ngcontent-my-app-c65] {
+    background-position: 9px 7px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/children_sprite.png);
+    background-repeat: no-repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .child-edu[_ngcontent-my-app-c65] {
+    background-position: -71px 7px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/children_sprite.png);
+    background-repeat: no-repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .sponsoring[_ngcontent-my-app-c65] {
+    background-position: -150px 7px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/children_sprite.png);
+    background-repeat: no-repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .child-athletes[_ngcontent-my-app-c65] {
+    background-position: -234px 7px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/children_sprite.png);
+    background-repeat: no-repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .become-ngo[_ngcontent-my-app-c65] {
+    background-position: -310px 7px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/children_sprite.png);
+    background-repeat: no-repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .sterlisation[_ngcontent-my-app-c65] {
+    background-position: 0 0;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/animal-sprite-1.png);
+    background-repeat: repeat;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .petsurgeries[_ngcontent-my-app-c65] {
+    background-position: 90px -9px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 30px;
+    background-repeat: repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .exp-vet-bills[_ngcontent-my-app-c65] {
+    background-position: 309px -9px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 30px;
+    background-repeat: repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .animal-shelter[_ngcontent-my-app-c65] {
+    background-position: 198px -13px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 30px;
+    background-repeat: repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .stray-animal-rescue[_ngcontent-my-app-c65] {
+    background-position: 421px -11px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 30px;
+    background-repeat: repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .animal-kennel[_ngcontent-my-app-c65] {
+    background-position: 529px -11px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 30px;
+    background-repeat: repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .other-animal-cause[_ngcontent-my-app-c65] {
+    background-position: 640px -9px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 30px;
+    background-repeat: repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .med-treatmnt[_ngcontent-my-app-c65] {
+    background-position: -80px 0;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/animal-sprite-1.png);
+    background-repeat: repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .sponsoring-meals[_ngcontent-my-app-c65] {
+    background-position: -160px 0;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/animal-sprite-1.png);
+    background-repeat: repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .anim-shelters[_ngcontent-my-app-c65] {
+    background-position: -240px 0;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/animal-sprite-1.png);
+    background-repeat: repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .making-doc[_ngcontent-my-app-c65] {
+    background-position: -320px 0;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/animal-sprite-1.png);
+    background-repeat: repeat;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .innovative-idea[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    background-image: url(/assets/images/medical-landing/entrepreneur_sprite.png);
+    background-position: 0px 0;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .film[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    background-image: url(/assets/images/medical-landing/entrepreneur_sprite.png);
+    background-position: -80px 0;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .theatre[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    background-image: url(/assets/images/medical-landing/entrepreneur_sprite.png);
+    background-position: -160px 0;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .book-publishing[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    background-image: url(/assets/images/medical-landing/entrepreneur_sprite.png);
+    background-position: -240px 0;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .music[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    background-image: url(/assets/images/medical-landing/entrepreneur_sprite.png);
+    background-position: -320px 0;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .help-out-family[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/transplant-sprite.png);
+    background-position: -11px -10px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .money-bag[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/transplant-sprite.png);
+    background-position: -99px -9px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .home-care[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/transplant-sprite.png);
+    background-position: -183px -9px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .organ-transplant[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/transplant-sprite.png);
+    background-position: 276px -11px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .daily-prescription[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url(/assets/images/medical-landing/transplant-sprite.png);
+    background-position: 192px -9px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .jersey[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #fff;
+    background-image: url(/assets/images/medical-landing/sports-sprite.png);
+    background-position: -30px -30px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .badminton[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #fff;
+    background-image: url(/assets/images/medical-landing/sports-sprite.png);
+    background-position: -144px -30px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .vip-sport-pass[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #fff;
+    background-image: url(/assets/images/medical-landing/sports-sprite.png);
+    background-position: -256px -27px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .trophy[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #fff;
+    background-image: url(/assets/images/medical-landing/sports-sprite.png);
+    background-position: 337px -27px;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .globe-sport[_ngcontent-my-app-c65] {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto 15%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #fff;
+    background-image: url(/assets/images/medical-landing/sports-sprite.png);
+    background-position: 223px -30px;
+}
+
+@media (min-width: 767px) {
+    .tab-sections[_ngcontent-my-app-c65] {
+        margin: auto;
+        width: 100%;
+        margin-top: 40px !important;
+        height: 240px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.heading[_ngcontent-my-app-c65] {
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #444;
+    width: 730px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+.heading.transplant[_ngcontent-my-app-c65] {
+    width: 100%;
+}
+
+.tab-sections[_ngcontent-my-app-c65] {
+    margin: auto;
+    width: 100%;
+    margin-top: 40px !important;
+    height: 240px;
+    justify-content: center;
+}
+
+.tab-sections[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65] {
+    width: 176px !important;
+    height: 210px;
+    box-shadow: 0 2px 11px 1px #e0dde0;
+    margin: 10px 5px 0;
+    transition: height .5s ease;
+    background-color: #00000008;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.tab-sections[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65] .link[_ngcontent-my-app-c65] {
+    display: none;
+}
+
+.tab-sections[_ngcontent-my-app-c65] button.selected[_ngcontent-my-app-c65]:after {
+    border-top: solid 30px #01bfbd;
+    border-left: solid 56px transparent;
+    border-right: solid 60px transparent;
+    bottom: -30px;
+}
+
+.tab-sections[_ngcontent-my-app-c65] button.selected[_ngcontent-my-app-c65] .title[_ngcontent-my-app-c65] {
+    margin-top: -20px;
+}
+
+.tab-sections[_ngcontent-my-app-c65] button.selected[_ngcontent-my-app-c65] .title.mt5neg[_ngcontent-my-app-c65] {
+    margin-top: -5px;
+}
+
+.tab-sections.know-more[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65]:hover {
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 18px 36px #3f34920d, 0 30px 60px #324b5d1a;
+    height: 240px;
+    transition: height .5s ease, box-shadow .25s, background-color .5s ease;
+}
+
+.tab-sections.know-more[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65]:hover .link[_ngcontent-my-app-c65] {
+    display: flex;
+}
+
+.tab-sections[_ngcontent-my-app-c65] .content[_ngcontent-my-app-c65] {
+    width: 80%;
+    padding-top: 50px;
+}
+
+.tab-sections[_ngcontent-my-app-c65] .title[_ngcontent-my-app-c65] {
+    line-height: 1.22;
+}
+
+
+@media (max-width: 768px) {
+    .main-wrapper[_ngcontent-my-app-c65] .heading[_ngcontent-my-app-c65] {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 120%;
+        margin: 0 20px;
+    }
+
+    .main-wrapper[_ngcontent-my-app-c65] .tab-sections[_ngcontent-my-app-c65] {
+        width: 220px !important;
+        height: 242px;
+    }
+
+    .main-wrapper[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65] {
+        width: 176px !important;
+        height: 210px;
+        box-shadow: 0 2px 11px 1px #e0dde0;
+        margin: 0 5px;
+        transition: height .5s ease;
+        background-color: #00000008;
+        border: 1px solid #eeeeee;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .main-wrapper[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65] .link[_ngcontent-my-app-c65] {
+        display: none;
+    }
+
+    .main-wrapper[_ngcontent-my-app-c65] button.selected[_ngcontent-my-app-c65]:after {
+        border-top: solid 30px #01bfbd;
+        border-left: solid 56px transparent;
+        border-right: solid 60px transparent;
+        bottom: -30px;
+    }
+
+    .main-wrapper[_ngcontent-my-app-c65] button.selected[_ngcontent-my-app-c65] .title[_ngcontent-my-app-c65] {
+        margin-top: -20px;
+    }
+
+    .main-wrapper.know-more[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65]:hover {
+        background-color: #fff;
+        box-sizing: border-box;
+        box-shadow: 0 18px 36px #3f34920d, 0 30px 60px #324b5d1a;
+        height: 240px;
+        transition: height .5s ease, box-shadow .25s, background-color .5s ease;
+    }
+
+    .main-wrapper.know-more[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65]:hover .link[_ngcontent-my-app-c65] {
+        display: flex;
+    }
+
+    .main-wrapper[_ngcontent-my-app-c65] .content[_ngcontent-my-app-c65] {
+        width: 80%;
+        padding-top: 50px;
+    }
+
+    .main-wrapper[_ngcontent-my-app-c65] .title[_ngcontent-my-app-c65] {
+        line-height: 1.22;
+    }
+
+    .main-wrapper[_ngcontent-my-app-c65] .title[_ngcontent-my-app-c65] {
+        line-height: 1.39;
+    }
+}
+
+.tab-sections[_ngcontent-my-app-c65] button:hover {
+    transition: height .5s ease, box-shadow .25s, background-color .5s ease;
+}
+
+.main-wrapper[_ngcontent-my-app-c66] {
+    padding: 25px 0 60px;
+}
+
+.main-wrapper[_ngcontent-my-app-c66] .mt40[_ngcontent-my-app-c66] {
+    margin-top: 40px;
+}
+
+.main-wrapper[_ngcontent-my-app-c66] .heading[_ngcontent-my-app-c66] {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #444;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px auto;
+}
+
+.main-wrapper[_ngcontent-my-app-c66] .text-heading[_ngcontent-my-app-c66] {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #444;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 10px auto;
+    width: 66%;
+}
+
+.main-wrapper[_ngcontent-my-app-c66] .divider[_ngcontent-my-app-c66] {
+    border-bottom: 3px solid #FEC003;
+    width: 100px;
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.main-wrapper[_ngcontent-my-app-c66] .text-desc[_ngcontent-my-app-c66] {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #00000080;
+    margin: 10px auto;
+}
+
+.main-wrapper[_ngcontent-my-app-c66] .high-cost[_ngcontent-my-app-c66] {
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-wrapper[_ngcontent-my-app-c66] .asking-money[_ngcontent-my-app-c66] {
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-wrapper[_ngcontent-my-app-c66] .asking-money-ed[_ngcontent-my-app-c66] {
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.3);
+}
+
+.main-wrapper[_ngcontent-my-app-c66] .emergencies[_ngcontent-my-app-c66] {
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-wrapper[_ngcontent-my-app-c66] .loan-repayment[_ngcontent-my-app-c66] {
+    background-position: -180px 0;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-wrapper[_ngcontent-my-app-c66] .loan-repayment-ed[_ngcontent-my-app-c66] {
+    background-position: -370px 0;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    margin: 0 auto;
+    background-size: cover;
+    transform: scale(1.3);
+}
+
+.tab-sections.know-more[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65]:hover {
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 18px 36px #3f34920d, 0 30px 60px #324b5d1a;
+    height: 240px;
+    transition: height .5s ease, box-shadow .25s, background-color .5s ease;
+}
+
+.tab-sections.know-more[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65]:hover .link[_ngcontent-my-app-c65] {
+    display: flex;
+}
+
+.main-wrapper.know-more[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65]:hover {
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 18px 36px #3f34920d, 0 30px 60px #324b5d1a;
+    height: 240px;
+    transition: height .5s ease, box-shadow .25s, background-color .5s ease;
+}
+
+.main-wrapper.know-more[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65]:hover .link[_ngcontent-my-app-c65] {
+    display: flex;
+}
+
+.main-wrapper[_ngcontent-my-app-c65] .tab-sections[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65]:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+
+.tab-sections .know-more[_ngcontent-my-app-c65] button[_ngcontent-my-app-c65]:hover {
+    background-color: #fff !important;
+    box-sizing: border-box;
+    box-shadow: 0 18px 36px rgba(63, 52, 146, 0.1), 0 30px 60px rgba(50, 75, 93, 0.1);
+    height: 240px !important;
+    transition: height 0.5s ease, box-shadow 0.25s, background-color 0.5s ease;
+}
+
+@media (min-width: 767px) {
+    .main-wrapper[_ngcontent-my-app-c66] {
+        background: #FFFBED;
+    }
+
+    .text-desc[_ngcontent-my-app-c66] {
+        width: 70%;
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+
+    .heading[_ngcontent-my-app-c66] {
+        max-width: 730px;
+    }
+
+    .heading.transplant[_ngcontent-my-app-c66] {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-wrapper[_ngcontent-my-app-c66] {
+        background: #FFFBED;
+    }
+
+    .text-desc[_ngcontent-my-app-c66] {
+        text-align: center;
+        margin: 10px 25px 20px 40px !important;
+    }
+
+    .heading[_ngcontent-my-app-c66] {
+        font-size: 22px;
+        line-height: 1.8;
+        margin-bottom: 20px;
+    }
+}
+
+#signInForm {
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+
+.footer1 {
+    margin-top: 2645px;
+    height: 495px;
+    background: #004848;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot1 {
+    background: #004848;
+    height: 343px;
+    flex: 0 0 25%;
+    max-width: 20%;
+    margin: 0 16px 0 70px;
+}
+
+.foot2 {
+    height: 435px;
+    flex: 0 0 75%;
+    max-width: 75%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20px 0 40px;
+}
+
+.f2d {
+    background-color: #004848;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer[_ngcontent-my-app-c75] .logo[_ngcontent-my-app-c75] {
+    margin-bottom: 20px;
+}
+
+footer[_ngcontent-my-app-c75] h4[_ngcontent-my-app-c75] {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer[_ngcontent-my-app-c75] ul[_ngcontent-my-app-c75] li[_ngcontent-my-app-c75] {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+footer[_ngcontent-my-app-c75] ul[_ngcontent-my-app-c75] li[_ngcontent-my-app-c75] a[_ngcontent-my-app-c75] {
+    color: #fff;
+}
+
+footer .followers {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+footer .followers span {
+    font-size: 14px;
+    color: #77cac8;
+}
+
+/* footer[_ngcontent-my-app-c75] ul.policies[_ngcontent-my-app-c75] {
+    padding: 0
+} */
+
+footer[_ngcontent-my-app-c75] .copywrite-section[_ngcontent-my-app-c75] .copywrite[_ngcontent-my-app-c75] {
+    color: #fff;
+    font-size: 14px;
+}
+
+footer[_ngcontent-my-app-c75] .payment-methods-holder[_ngcontent-my-app-c75] {
+    border-bottom: 2px solid #2b5958;
+    justify-content: flex-end;
+} 
+
+footer[_ngcontent-my-app-c75] .copyright[_ngcontent-my-app-c75] a[_ngcontent-my-app-c75] {
+    color: #fff;
+}
+
+footer .reach-out {
+    font-size: 17px;
+    color: #fff;
+}
+
+.share-icons{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2em;
+}
+
+.share-icons i{
+    margin: 5px;
+}
+
+.followers h2 {
+    font-size: 30px;
+    margin: 35px 0 0 0;
+}
+
+@media (min-width: 992px) {
+    footer[_ngcontent-my-app-c75] {
+        background-color: var(--primary-color);
+        box-shadow: inset 0 0 0 1000px #0f1918bf;
+    }
+
+    footer[_ngcontent-my-app-c75] ul[_ngcontent-my-app-c75] li[_ngcontent-my-app-c75] a[_ngcontent-my-app-c75] {
+        font-size: 17px;
+    }
+
+    footer[_ngcontent-my-app-c75] ul[_ngcontent-my-app-c75] {
+        padding-left: 0;
+    }
+
+    .footer-wrapper[_ngcontent-my-app-c75] {
+        padding-top: 50px;
+    }
+
+    .followers {
+        margin-bottom: 15px;
+        margin-top: -10px;
+    }
+
+    .share-icons {
+        color: #fff;
+        padding-top: 20px;
+        border-top: 2px solid #2b5958;
+    }
+
+    .payment-methods[_ngcontent-my-app-c75] {
+        padding: 15px;
+    }
+
+    .payment-methods[_ngcontent-my-app-c75] img[_ngcontent-my-app-c75] {
+        height: 30px;
+        width: 406px;
+    }
+
+    .copywrite-section[_ngcontent-my-app-c75] {
+        line-height: 30px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    app-fundraiser+app-footer footer {
+        padding-bottom: 54px;
+    }
+
+    .footer-bottom[_ngcontent-my-app-c75] {
+        background: #063c3b;
+        padding-top: 15px;
+    }
+
+    .payment-methods[_ngcontent-my-app-c75] img {
+        width: 100%;
+    }
+
+    .subscribe-text[_ngcontent-my-app-c75] {
+        color: #fff;
+        font-size: 20px;
+        margin: 17px 0;
+    }
+
+    ul[_ngcontent-my-app-c75] h4[_ngcontent-my-app-c75] {
+        display: none;
+    }
+
+    /* .upper-section[_ngcontent-my-app-c75] {
+        background: #055453;
+        padding-bottom: 13px
+    } */
+
+    /* .footer-links[_ngcontent-my-app-c75] {
+        padding-top: 10px
+    } */
+
+    .f2d ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .f2d li {
+        display: inline;
+        border-right: 1px solid #ffffff;
+    }
+
+    .f2d li :first-child,
+    .f2d li :last-child {
+        border-right: ncopone;
+    }
+
+    .f2d a {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    .logo-border[_ngcontent-my-app-c75] {
+        border-bottom: 1px solid #517676;
+        padding-top: 17px;
+    }
+
+    .paymentmethods[_ngcontent-my-app-c75] img[_ngcontent-my-app-c75] {
+        margin: 30px auto;
+        width: 310px;
+    }
+
+    .followers {
+        padding-left: 15px;
+    }
+
+    .followers span {
+        color: #0a7d7b;
+    }
+
+    .share-icons {
+        margin-top: 5px;
+    }
+
+    .copyright-mobile {
+        color: #fff;
+        font-size: 14px;
+        margin: 0 auto 40px;
+        line-height: 18px;
+        width: 70%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 995px) {
+    footer[_ngcontent-my-app-c75] .container[_ngcontent-my-app-c75] {
+        max-width: 100%;
+    }
+
+    footer[_ngcontent-my-app-c75] .upper-section[_ngcontent-my-app-c75],
+    footer[_ngcontent-my-app-c75] .footer-bottom[_ngcontent-my-app-c75] {
+        padding: 20px;
+    }
+
+    .homePage footer {
+        padding-bottom: 0;
+    }
+}
+
+.mb-50[_ngcontent-my-app-c75] {
+    margin-bottom: 50px;
+}
+
+a[_ngcontent-my-app-c74]:before {
+    color: #fff;
+    font-size: 30px;
+    margin-right: 12px;
+}
+
+.don {
+    height: 45px;
+    margin: -9px 0 0px 7px;
+    color: white;
+}
+
+.f2d ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.f2d li {
+    margin: 10px 0;
+}
+
+.f2d h4 {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 53px;
+}
+
+.f2d a {
+    color: white;
+    text-decoration: none; 
+    font-size: 1.2em; 
+}
+
+.f2d a:hover {
+    text-decoration: underline; 
+}
+
+.footer2 {
+    height: 20px;
+    background: #004848;
+    border-top: 2px solid #2b5958;
+    padding: 15px 185px;
+    text-align: center;
+    color: white;
+}
+
+.footer2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer2 a :hover{
+    cursor: pointer;
+}
